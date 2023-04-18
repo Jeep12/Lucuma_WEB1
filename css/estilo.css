@@ -1,0 +1,119 @@
+.ocultar {
+    display: none;
+}
+body {
+    background-color: #212529 ;
+}
+.logoLucuma {
+    width: 100px ;
+   height: 70px;
+   border-radius: 30%;
+}
+.menu {
+    border-bottom: 3px solid black;
+    
+}
+.social {
+    border-radius: 3px;
+    background-color:  #272a2c;
+    margin-right: 60px;   
+}
+.social table tr td {
+    padding: 10px;
+}
+.social table tr td:hover {
+    background-color: #212529 ;
+    transition: color 0.8s  ;
+}
+.container {
+    background-color: #272a2c;
+    margin:10px auto;
+    border-radius: 3px;
+    color:#9B9D9E;
+    text-align: center;
+}
+.tituloNoticias {
+    background-color: #212529;
+}
+.noticias {
+    height: 700px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.discosvendidos tr td{
+    border-bottom: 1px solid white;
+}
+/* le doy un fondo al scrollbar color negro */
+.noticias::-webkit-scrollbar {
+    background-color: #212529;
+   
+}
+/* le doy un fondo a la posicion donde se encuentre en el scrollbar */
+.noticias::-webkit-scrollbar-thumb {
+    background-color: #272a2c;
+    border: 1px groove #9B9D9E;
+}
+.page-footer{
+    border-top: 3px solid black;
+    color: white;
+}
+.parte-articulos {
+    margin: 30px;
+}
+.imgIntegrantes {
+    border-radius: 5px;
+    padding: 10px;
+    width:50% ;
+    height:200px;
+    border: 3px solid #212529 ;
+}
+
+
+/* Estilo parte QuienesSomos */
+
+ul.social li{
+    display: inline-block;
+}
+
+.lista-colaboradores {
+    list-style: none;
+}
+
+
+/* Estilo tabla dinamica */
+.formulario {
+    margin: 25px auto;
+    width: 250px;
+    background-color:#212529;
+    padding:15px ;
+    
+}
+.formulario input {
+    background-color:#272A2C;
+    border: none;
+    width: 100%;
+}
+.formulario select {
+    width: 100%;
+    background-color:#272A2C;
+    height: 30px;
+    border: none;
+    color: #757575;
+}
+.info {
+        width: 80%;
+        background-color: #212529;
+        padding: 5px;
+        margin: 20px auto;
+        
+}
+.info tr td {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #9B9D9E;
+    padding: 10px;
+    border-bottom: 1px solid #9B9D9E;;
+}
+.section-btns {
+    margin: 15px;
+}

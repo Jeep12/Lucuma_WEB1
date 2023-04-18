@@ -1,0 +1,54 @@
+    <h1>¡Ingrese albumnes para recomendarnos!</h1>
+    
+    <div class="row">
+        <div class="col-sm-5">
+            <form action="#" class="formulario">
+                <label for="nombre artista ">Ingrese el nombre del artista</label>
+            <input type="text" placeholder="Nombre de artista/banda" id="nombreArtista" >
+            
+            <label for="nombre album">Ingrese el nombre del album</label>
+            <input type="text" placeholder="Nombre de album" id="nombreAlbumn">
+            
+            <label for="año de album">Ingrese el año del album</label>
+            <input type="number" placeholder="Año del album" id="albumAnio">
+            
+            <label for="genero de album">Ingrese el genero del album</label>
+            <select id="seleccionGenero"  class="generos">
+                <option hidden selected>Selecciona una opción</option>
+                <option>Rock</option>
+                <option>Reggaeton</option>
+                <option>Cumbia</option>
+                <option>Reggae</option>
+            </select>
+            <section class="section-btns">
+                <button id="enviar" class="btn btn-dark">Enviar</button>
+                <button id="eliminar" class="btn btn-dark">Borrar </button>
+                <button id="update" class="btn btn-dark">Actualizar </button>    
+            </section>
+            
+            
+            <label for="buscar">Buscar por genero</label>   
+            <select id="buscarGeneros"  class="generos">
+                <option hidden selected>Selecciona una opción</option>
+                <option>Rock</option>
+                <option>Reggaeton</option>
+                <option>Cumbia</option>
+                <option>Reggae</option>
+            </select>
+            <section class="section-btns">
+                <button id="buscarGenero" class="btn btn-dark">Buscar</button>
+                <button id="restaurar" class="btn btn-dark">Restaurar</button>
+                <button id="aleatorios" class="btn btn-dark">Agregar 3 Aleatorios</button>
+            </section>
+            
+        </form>
+        
+        <p>Seleccione la fila aprete el boton que desee actualizar o borrar</p>
+        <p>El boton restaurar actualiza la tabla con los últimos cambios</p>
+    </div>
+    
+    <div class="col-sm-7" >
+        <table id="tabla" class="info">
+        </table>
+    </div>
+</div>
